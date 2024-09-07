@@ -9,6 +9,10 @@
   font-style: normal;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 :root{
   --primary-bg-color:#fff2e2;
   --primary-color:#e2bbf7;

@@ -121,7 +121,7 @@ const ItemsGrid=()=>{
 
 export const ItemsForPurchase=()=>{
     return <MaxWrapper className="relative max-w-5xl order-3">
-        <img area-hidden='true' src="/what-people-are-buying.png" alt="" className="bsolute select-none hidden xl:block -left-32 top-1/3"/>
+        <img area-hidden='true' src="/what-people-are-buying.png" alt="" className="absolute select-none hidden xl:block -left-32 top-1/3"/>
 
         <ItemsGrid/>
     </MaxWrapper>
