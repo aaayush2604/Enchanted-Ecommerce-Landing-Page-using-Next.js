@@ -128,10 +128,12 @@ export default function Home() {
         </MaxWrapper>
 
         <div className="pt-24 flex flex-col items-center ">
-          <h2 className="order-1 mt-2 tracking-tight text-center text-balance !loading-tight font-bold text-4xl md:text-5xl">
+          <div className='flex flex-col md:flex-row items-center'>
+          <h2 className="order-2 mt-2 tracking-tight text-center text-balance !loading-tight font-bold text-4xl md:text-5xl">
             What other Customers <span className="relative px-2">are buying<Icons.underline className="hidden sm:block pointer-events-none absolute inset-x-0 -bottom-6 text-[var(--secondary-color)]"/></span>
           </h2>
-          <img src="/Lavender-2.png" alt="" className="w-20 order-0 lg:order-2" />
+          <img src="/Lavender-2.png" alt="" className="w-20 order-1 lg:order-3" />
+          </div>
           <ItemsForPurchase/>
         </div>
       </section>
